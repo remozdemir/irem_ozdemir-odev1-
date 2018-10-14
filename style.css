@@ -1,18 +1,18 @@
-.area{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.outmost{
+.outmost {
     width: 100%;
     display: flex;
     margin: 0;
     
 }
 
-.box{
+.area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box {
     position: relative;
     text-align: center;
     margin: 24px;
@@ -22,9 +22,11 @@
     border-color: #000;
     border: solid;
 }
+
 div.box p {
     color: white;
 }
+
 .right {
     border-style: solid;
     border-width: 0px 0px 2px 2px;
@@ -41,36 +43,32 @@ div.box p {
     top: 0px;
     background-color: #006666;
 }
+
 div.frame2 div.box div.right {
     background-color: antiquewhite;
 }
+
 div.frame3 div.box div.right {
     background-color:burlywood;
 }
+
 @media (min-width: 992px) {
     .frame1,
     .frame2,
     .frame3 {
-        width: 33%;
-       
+        width: 33%;  
     }
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991px){
     .frame1,
     .frame2 {
-        width: 50%;
-        
+        width: 50%;      
     }
     .frame3 {
-        width: 100%;
-        
+        width: 100%;       
     }
 }    
-
-
 
 @media (max-width: 767px){
     .frame1,
