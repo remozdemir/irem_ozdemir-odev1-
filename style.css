@@ -43,39 +43,39 @@
     line-height: 30px;
     }
 
-div.col1 div.box div.right {
+div.frame1 div.box div.right {
     background-color: antiquewhite;
     
-div.col2 div.box div.right {
+div.frame2 div.box div.right {
     background-color: tan;
     }
     
-div.col3 div.box div.right {
+div.frame3 div.box div.right {
     background-color: firebrick;
     }
     
 @media (min-width: 992px) {
-    .col1,
-    .col2,
-    .col3 {
+    .frame1,
+    .frame2,
+    .frame3 {
         width: 33%;
         }
     }
     
 @media (min-width: 768px) and (max-width: 991px) {
-    .col1,
-    .col2 {
+    .frame1,
+    .frame2 {
         width: 50%;
         }
-    .col3 {
+    .frame3 {
         width: 100%;
         }
     }
     
 @media (max-width: 767px) {
-    .col1,
-    .col2,
-    .col3 {
+    .frame1,
+    .frame2,
+    .frame3 {
         width: 100%;
         display: block;
         }
