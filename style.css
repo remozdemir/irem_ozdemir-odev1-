@@ -35,10 +35,9 @@
     right: 0px;
     top: 0px;
     border-width: 0px 0px 2px 2px;
-    
+    border-color: #000; 
     color: black;
-    border-style: solid;
-    
+    border-style: solid;    
     font-size: 30px;
     line-height: 30px;
     }
