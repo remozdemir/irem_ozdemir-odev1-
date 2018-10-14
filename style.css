@@ -36,9 +36,9 @@
     top: 0px;
     border-width: 0px 0px 2px 2px;
     border-color: #000;
-    color: red;
+    color: black;
     border-style: solid;
-    background color: #96CDCD;
+    background color: peachpuff;
     font-size: 30px;
     line-height: 30px;
     }
@@ -48,7 +48,7 @@ div.frame2 div.box div.right {
     }
     
 div.frame3 div.box div.right {
-    background-color: firebrick;
+    background-color: grayishmagenta;
     }
     
 @media (min-width: 992px) {
