@@ -18,7 +18,7 @@
      padding: 36px 24px 40px 24px;
      border: solid;
      border-color: #000;
-     border-radious: 5px;
+     border-radius: 5px;
      background-color: #99BDE4;
      }
      
@@ -37,6 +37,7 @@
     border-width: 0px 0px 2px 2px;
     border-color: #000; 
     color: black;
+    background-color: #006666;
     border-style: solid;    
     font-size: 30px;
     line-height: 30px;
@@ -50,7 +51,7 @@ div.frame2 div.box div.right {
     }
     
 div.frame3 div.box div.right {
-    background-color: firebrick;
+    background-color: pink;
     }
     
 @media (min-width: 992px) {
