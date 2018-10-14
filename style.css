@@ -48,7 +48,7 @@ div.frame2 div.box div.right {
     }
     
 div.frame3 div.box div.right {
-    background-color: grayishmagenta;
+    background-color: violet;
     }
     
 @media (min-width: 992px) {
