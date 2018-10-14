@@ -1,10 +1,10 @@
-  .container {
+  .outmost {
       width: 100%;
       display: flex;
       margin: 0;
       }
   
-  .row {
+  .area {
       width: 100%;
       align-items: center;
       display: flex;
