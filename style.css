@@ -1,19 +1,15 @@
-.row{
+.area{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.container {
+.outmost{
     width: 100%;
     display: flex;
     margin: 0;
     
-}
-
-.menu {
-    text-align: center;
 }
 
 .box{
@@ -31,7 +27,7 @@ div.box p {
 }
 .topRight {
     border-style: solid;
-    border-width: 0px 0px 2px 2px;
+    border-width: 0px 0px 3px 3px;
     border-color: #000;
     color: red;
     font-size: 30px;
