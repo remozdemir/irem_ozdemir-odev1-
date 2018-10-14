@@ -42,6 +42,9 @@
     font-size: 30px;
     line-height: 30px;
     }
+
+div.frame1 div.box div.right {
+    background-color: antiquewhite;
     
 div.frame2 div.box div.right {
     background-color: tan;
