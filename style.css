@@ -1,15 +1,14 @@
+  .container {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    
+}
   .row{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    margin: 0;
-    
 }
 
 .box{
@@ -56,8 +55,6 @@ div.col3 div.box div.topRight {
     }
 }
 
-
-
 @media (min-width: 768px) and (max-width: 991px){
     .col1,
     .col2 {
@@ -69,8 +66,6 @@ div.col3 div.box div.topRight {
         
     }
 }    
-
-
 
 @media (max-width: 767px){
     .col1,
