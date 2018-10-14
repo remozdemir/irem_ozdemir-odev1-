@@ -1,33 +1,36 @@
-.outmost {
-    width: 100%;
-    display: flex;
-    margin: 0;
-    
-}
-
-.area {
+.row{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.box {
+.container {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    
+}
+
+.menu {
+    text-align: center;
+}
+
+.box{
     position: relative;
     text-align: center;
     margin: 24px;
     padding: 36px 24px 40px 24px;
     border-radius: 7px;
-    background-color: #99BDE4;
+    background-color: #CCFFFF;
+       
     border-color: #000;
     border: solid;
 }
-
 div.box p {
     color: white;
 }
-
-.right {
+.topRight {
     border-style: solid;
     border-width: 0px 0px 2px 2px;
     border-color: #000;
@@ -43,38 +46,42 @@ div.box p {
     top: 0px;
     background-color: #006666;
 }
-
-div.frame2 div.box div.right {
+div.col2 div.box div.topRight {
     background-color: antiquewhite;
 }
-
-div.frame3 div.box div.right {
+div.col3 div.box div.topRight {
     background-color:burlywood;
 }
-
 @media (min-width: 992px) {
-    .frame1,
-    .frame2,
-    .frame3 {
-        width: 33%;  
+    .col1,
+    .col2,
+    .col3 {
+        width: 33%;
+       
     }
 }
 
+
+
 @media (min-width: 768px) and (max-width: 991px){
-    .frame1,
-    .frame2 {
-        width: 50%;      
+    .col1,
+    .col2 {
+        width: 50%;
+        
     }
-    .frame3 {
-        width: 100%;       
+    .col3 {
+        width: 100%;
+        
     }
 }    
 
+
+
 @media (max-width: 767px){
-    .frame1,
-    .frame2,
-    .frame3{
+    .col1,
+    .col2,
+    .col3{
         width: 100%;
         display: block;
     }
-}   
+}  
